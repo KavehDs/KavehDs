@@ -36,7 +36,7 @@ explaining the top drivers.
 
 - Customer churn & retention
 - Demand / sales forecasting — [Retail Sales Forecasting](https://github.com/KavehDs/retail-sales-forecasting)
-- NLP & LLM applications *(in progress)*
+- NLP & LLM applications — [Sentiment Analysis & RAG Q&A](https://github.com/KavehDs/sentiment-analysis-and-rag-qa)
 
 ## Open to
 
