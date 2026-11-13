@@ -31,13 +31,17 @@ explaining the top drivers.
   monthly charges
 - Includes a Streamlit demo, reproducible training script, and full
   results in `metrics.json`
+- **Live demo:** [Try the churn app](https://wkntyf9xvvupgdezhbuzek.streamlit.app/)
 
 ## Focus areas
 
-- Customer churn & retention
-- Demand / sales forecasting — [Retail Sales Forecasting](https://github.com/KavehDs/retail-sales-forecasting)
-- NLP & LLM applications — [Sentiment Analysis & RAG Q&A](https://github.com/KavehDs/sentiment-analysis-and-rag-qa)
-- SQL & business analytics — [SQL E-commerce Analytics Dashboard](https://github.com/KavehDs/sql-ecommerce-analytics-dashboard)
+- Customer churn & retention — [Telecom Customer Churn Prediction](https://github.com/KavehDs/telecom-customer-churn-prediction) · [Live demo](https://wkntyf9xvvupgdezhbuzek.streamlit.app/)
+- Demand / sales forecasting — [Retail Sales Forecasting](https://github.com/KavehDs/retail-sales-forecasting) · [Live demo](https://afsrgo7adfcexiaoutsbty.streamlit.app/)
+- NLP & LLM applications — [Sentiment Analysis & RAG Q&A](https://github.com/KavehDs/sentiment-analysis-and-rag-qa) · [Live demo](https://gkha5ybqsvsmnyagzjeakj.streamlit.app/)
+- SQL & business analytics — [SQL E-commerce Analytics Dashboard](https://github.com/KavehDs/sql-ecommerce-analytics-dashboard) · [Live demo](https://7hdfbygbq4tzibzccmp9eu.streamlit.app/)
+- Diabetes risk prediction — [CDC Diabetes Risk Prediction](https://github.com/KavehDs/cdc-diabetes-risk-prediction) · [Live demo](https://dmpcges8zubzu8psyweucw.streamlit.app/)
+- Medical image classification — [Breast Cancer Diagnosis Prediction](https://github.com/KavehDs/breast-cancer-diagnosis-prediction) · [Live demo](https://kwjxdvgpjpiacjq4ehemvd.streamlit.app/)
+- Hospital readmission — [Diabetes Hospital Readmission Prediction](https://github.com/KavehDs/diabetes-readmission-prediction) · [Live demo](https://njsq2g7jm5yc5qzdv39x4s.streamlit.app/)
 
 ## Open to
 
