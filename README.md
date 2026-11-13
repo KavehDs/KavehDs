@@ -35,13 +35,13 @@ explaining the top drivers.
 ## Focus areas
 
 - Customer churn & retention
-- Demand / sales forecasting *(in progress)*
+- Demand / sales forecasting — [Retail Sales Forecasting](https://github.com/KavehDs/retail-sales-forecasting)
 - NLP & LLM applications *(in progress)*
 
 ## Open to
 
-Remote Data Science roles and collaborations — **Europe, Gulf countries,
-Pakistan & India**. Open to relocation for the right role.
+Remote Data Science roles and collaborations — **worldwide**. Open to
+relocation for the right role.
 
 ---
 
