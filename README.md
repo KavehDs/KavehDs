@@ -1,3 +1,5 @@
+![Kaveh Kazemi — Data Scientist](banner.svg)
+
 # Hi, I'm Kaveh 👋
 
 **Data Scientist** — I build machine-learning models that explain

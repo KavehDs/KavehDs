@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="blueFade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="640" fill="#ffffff"/>
+  <rect width="1280" height="640" fill="url(#blueFade)"/>
+  <circle cx="1180" cy="40" r="260" fill="#dbeafe" opacity="0.45"/>
+  <circle cx="80" cy="620" r="220" fill="#dbeafe" opacity="0.4"/>
+  <path d="M0,600 C240,540 420,620 640,580 C860,540 1080,600 1280,560 L1280,640 L0,640 Z" fill="url(#waveGrad)"/>
+
+  <!-- top-left line chart -->
+  <g stroke="#2563eb" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <polyline points="20,120 70,80 120,110 180,55 240,75 300,30"/>
+  </g>
+  <g fill="#2563eb">
+    <circle cx="70" cy="80" r="5"/><circle cx="180" cy="55" r="5"/><circle cx="300" cy="30" r="5"/>
+  </g>
+
+  <!-- top-right network nodes -->
+  <g stroke="#93c5fd" stroke-width="1.5" opacity="0.9">
+    <line x1="1020" y1="60" x2="1100" y2="30"/><line x1="1100" y1="30" x2="1180" y2="70"/>
+    <line x1="1020" y1="60" x2="1090" y2="110"/><line x1="1090" y1="110" x2="1180" y2="70"/>
+    <line x1="1100" y1="30" x2="1120" y2="120"/><line x1="1090" y1="110" x2="1120" y2="120"/>
+    <line x1="1180" y1="70" x2="1240" y2="40"/><line x1="1120" y1="120" x2="1240" y2="110"/>
+  </g>
+  <g fill="#2563eb">
+    <circle cx="1020" cy="60" r="6"/><circle cx="1100" cy="30" r="6"/><circle cx="1180" cy="70" r="6"/>
+    <circle cx="1090" cy="110" r="6"/><circle cx="1120" cy="120" r="5"/><circle cx="1240" cy="40" r="5"/><circle cx="1240" cy="110" r="5"/>
+  </g>
+
+  <!-- name -->
+  <text x="70" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="110" font-weight="800" fill="#0f172a">Kaveh</text>
+  <text x="70" y="415" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="110" font-weight="800" fill="#0f172a">Kazemi</text>
+  <text x="72" y="480" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="44" font-weight="600" fill="#0f172a">Data Scientist</text>
+  <circle cx="420" cy="468" r="8" fill="#2563eb"/>
+  <text x="72" y="535" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="30" font-weight="500" fill="#2563eb">Machine Learning · SQL · Streamlit</text>
+  <rect x="72" y="560" width="420" height="6" rx="3" fill="#2563eb"/>
+
+  <!-- card: Training Loss -->
+  <g>
+    <rect x="700" y="90" width="250" height="150" rx="16" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <text x="722" y="122" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="600" fill="#1e40af">Training Loss</text>
+    <g stroke="#2563eb" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <polyline points="722,210 750,185 778,200 806,170 834,180 862,150 890,160 918,135"/>
+    </g>
+    <g fill="#2563eb"><circle cx="750" cy="185" r="3.5"/><circle cx="806" cy="170" r="3.5"/><circle cx="862" cy="150" r="3.5"/><circle cx="918" cy="135" r="3.5"/></g>
+  </g>
+
+  <!-- card: Feature Importance -->
+  <g>
+    <rect x="700" y="265" width="250" height="150" rx="16" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <text x="722" y="297" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="600" fill="#1e40af">Feature Importance</text>
+    <rect x="735" y="360" width="34" height="38" rx="4" fill="url(#barGrad)"/>
+    <rect x="790" y="340" width="34" height="58" rx="4" fill="url(#barGrad)"/>
+    <rect x="845" y="315" width="34" height="83" rx="4" fill="url(#barGrad)"/>
+  </g>
+
+  <!-- card: ROC Curve -->
+  <g>
+    <rect x="980" y="265" width="230" height="150" rx="16" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <text x="1002" y="297" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="600" fill="#1e40af">ROC Curve</text>
+    <g stroke="#cbd5e1" stroke-width="1.5">
+      <line x1="1005" y1="395" x2="1185" y2="395"/><line x1="1005" y1="395" x2="1005" y2="320"/>
+    </g>
+    <path d="M1005,395 C1060,390 1080,330 1185,318" stroke="#2563eb" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <line x1="1005" y1="395" x2="1185" y2="318" stroke="#93c5fd" stroke-width="1.5" stroke-dasharray="5 5"/>
+  </g>
+
+  <!-- card: code -->
+  <g>
+    <rect x="980" y="440" width="230" height="110" rx="16" fill="#0f172a"/>
+    <text x="1000" y="472" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" fill="#93c5fd">predict.py</text>
+    <text x="1000" y="500" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" fill="#e2e8f0">from sklearn import *</text>
+    <text x="1000" y="522" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" fill="#e2e8f0">model.fit(X_train,</text>
+    <text x="1000" y="544" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" fill="#e2e8f0">          y_train)</text>
+  </g>
+
+  <!-- small python-ish mark bottom right -->
+  <g opacity="0.85">
+    <circle cx="700" cy="500" r="5" fill="#2563eb"/><circle cx="740" cy="530" r="4" fill="#60a5fa"/>
+    <circle cx="660" cy="545" r="4" fill="#93c5fd"/><circle cx="720" cy="575" r="5" fill="#2563eb"/>
+    <g stroke="#93c5fd" stroke-width="1.5"><line x1="700" y1="500" x2="740" y2="530"/><line x1="740" y1="530" x2="720" y2="575"/><line x1="700" y1="500" x2="660" y2="545"/></g>
+  </g>
+</svg>
