@@ -44,6 +44,8 @@ explaining the top drivers.
 - Diabetes risk prediction — [CDC Diabetes Risk Prediction](https://github.com/KavehDs/cdc-diabetes-risk-prediction) · [Live demo](https://dmpcges8zubzu8psyweucw.streamlit.app/)
 - Medical image classification — [Breast Cancer Diagnosis Prediction](https://github.com/KavehDs/breast-cancer-diagnosis-prediction) · [Live demo](https://kwjxdvgpjpiacjq4ehemvd.streamlit.app/)
 - Hospital readmission — [Diabetes Hospital Readmission Prediction](https://github.com/KavehDs/diabetes-readmission-prediction) · [Live demo](https://njsq2g7jm5yc5qzdv39x4s.streamlit.app/)
+- Heart disease risk prediction — [Heart Disease Risk Prediction](https://github.com/KavehDs/heart-disease-risk-prediction) · [Live demo](https://4u6uuezerpn2c6k68c6jdz.streamlit.app/)
+- Chest X-ray pneumonia classification — [Pneumonia X-ray Classification](https://github.com/KavehDs/pneumonia-xray-classification) · [Live demo](https://pfdubaypbxrm8zkk7tjv9t.streamlit.app/)
 
 ## Open to
 
